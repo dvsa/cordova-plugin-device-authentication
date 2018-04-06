@@ -20,6 +20,8 @@ JS
 cordova.plugins.DeviceAuthentication.runAuthentication('Prompt msg', this.successCB, this.failureCB)
 ```
 Where:
+
 **successCB** takes boolean params that determines if authentication passed or not
+
 **failureCB** is called when for some reason it os can't show Authentication prompt (eg. not set)
 

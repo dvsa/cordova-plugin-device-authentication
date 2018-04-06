@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-device-authentication" version="0.0.1">
+   <name>DeviceAuthentication</name>
+    <js-module name="DeviceAuthentication" src="www/DeviceAuthentication.js">
+        <clobbers target="cordova.plugins.DeviceAuthentication" />
+    </js-module>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="DeviceAuthentication">
+                <param name="ios-package" value="DeviceAuthentication" />
+            </feature>
+        </config-file>
+        <source-file src="src/ios/DeviceAuthentication.m" />
+    </platform>
+    <platform name="browser">
+        <js-module src="src/browser/DeviceAuthenticationProxy.js" name="DeviceAuthenticationProxy">
+            <runs />
+        </js-module>
+    </platform> 
+</plugin>

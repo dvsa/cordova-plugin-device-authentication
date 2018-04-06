@@ -1,0 +1,24 @@
+{
+  "name": "cordova-plugin-device-authentication",
+  "version": "0.0.1",
+  "description": "Provide API to run Device Authentication (show FaceId, TouchID, Passcode)",
+  "cordova": {
+    "id": "cordova-plugin-device-authentication ",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvsa/cordova-plugin-device-authentication.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "MELE Team",
+  "bugs": {
+    "url": "https://github.com/dvsa/cordova-plugin-device-authentication/issues"
+  },
+  "homepage": "https://github.com/dvsa/cordova-plugin-device-authentication#readme"
+}

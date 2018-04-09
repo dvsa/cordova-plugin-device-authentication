@@ -25,3 +25,4 @@ Where:
 
 **failureCB** is called when for some reason it os can't show Authentication prompt (eg. not set)
 
+[Typescript support](https://github.com/dvsa/cordova-plugin-device-authentication/tree/master/typings)
